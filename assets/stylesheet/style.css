@@ -253,6 +253,12 @@ color: #FFFFFF;
 
 .margin{
     margin-top: 19px;
+    text-decoration: none;
+    color: white;
+}
+.margin a{
+    text-decoration: none;
+    color: white;
 }
 
 .company{
