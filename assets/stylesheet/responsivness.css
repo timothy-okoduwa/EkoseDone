@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+    .aff{
+        font-family: 'poppins';
+        color: white;
+    font-style: normal;
+    margin-top: 33px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+    }
+    .quality{
+        font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    }
+    .company1{
+        margin-left: 4%;
+    }
+    .holder{
+        margin-left: 4%;
+    }
+}
