@@ -1,6 +1,6 @@
 .move{
 
-    width: 40%;
+    width: 32%;
 }
 .icon{
     padding-left: 20%;
@@ -8,8 +8,9 @@
 .font{
     font-family: 'poppins';
 font-style: normal;
-font-weight: 500;
-font-size: 16px;
+font-weight: 400;
+font-size: 21px;
+width: 90%;
 color: #FFFFFF;
 }
 .shift{
@@ -18,8 +19,8 @@ color: #FFFFFF;
 }
 .butt{
     width: 165px;
-height: 36px;
-font-family: 'Metropolis';
+/* height: 36px; */
+font-family: 'poppins';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -35,8 +36,15 @@ border-radius: 5px;
 font-style: normal;
 margin-top: 33px;
 font-weight: 600;
-font-size: 44px;
+font-size: 48px;
 line-height: 50px;
+}
+.aff2{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #333333;
 }
 .quality{
     font-family: 'Nunito Sans';
@@ -47,15 +55,30 @@ line-height: 27px;
 margin-top: 30px;
 color: #FFFFFF;
 }
+.quality2{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+}
 .order{
     
 font-family: 'poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 30px;
-padding-top: 60px;
+font-size: 36px;
+line-height: 36px;
 text-align: center;
-color: #333333;
+color: #E7AC3E;
+}
+.order2{
+    
+font-family: 'poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+color: #000000;
 }
 .order12{
     
@@ -73,7 +96,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 text-align: center;
-margin-top: 12px;
+margin-top: 52px;
 color: #333333;
 }
 .cent{
@@ -162,8 +185,9 @@ color: #333333;
     font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
-color: rgba(51, 51, 51, 0.85);
+font-size: 18px;
+color: rgba(51, 51, 51, 0.686);
+padding: 25px;
 }
 .ccard{
 
@@ -185,6 +209,7 @@ border-radius: 9.37143px;
     justify-content: space-between;
     width: 60%;
 }
+
 .buttt3{
     display: flex;
     flex-wrap: wrap;
@@ -204,13 +229,14 @@ font-weight: 600;
 font-size: 48px;
 line-height: 48px;
 color: #E7AC3E;
+margin-bottom: 60px;
 }
 .enjoy{
     font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 160%;
+margin-bottom: 90px;
 color: #333333;
 }
 .Get{
@@ -337,6 +363,7 @@ color: #333333;
     display: flex;
     justify-content: center;
     align-items: center;
+  width: 100%;
 }
 .talkss{
     margin-top: 20px;
@@ -353,20 +380,21 @@ border-radius: 5px;
 .afford{
     font-family: 'poppins';
     font-style: normal;
-font-weight: 600;
-font-size: 16px;
-color: #292D32;
+    font-weight: 600;
+    font-size: 16px;
+    color: #292D32;
 padding: 10px;
 }
 .naote{
 
     padding: 15px;
-
     font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+
 }
 .nname{
 font-family: 'poppins';
