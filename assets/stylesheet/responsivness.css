@@ -24,3 +24,32 @@
         margin-left: 4%;
     }
 }
+
+@media screen and (min-width: 1500px) {
+
+    .move{
+
+        width: 44%;
+    }
+    .font{
+        font-family: 'poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    width: 90%;
+    color: #FFFFFF;
+    }
+    .icon{
+        padding-left: 20%;
+        width: 50%;
+    }
+    .butt{
+        width: 185px;
+    height: 66px;
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    border-radius: 5px;
+    }
+}
