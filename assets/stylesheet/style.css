@@ -6,10 +6,10 @@
     padding-left: 20%;
 }
 .font{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 21px;
+font-size: 20px;
 width: 90%;
 color: #FFFFFF;
 }
@@ -20,7 +20,7 @@ color: #FFFFFF;
 .butt{
     width: 165px;
 /* height: 36px; */
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -31,16 +31,16 @@ border-radius: 5px;
    
 }
 .aff{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     color: white;
 font-style: normal;
-margin-top: 33px;
+margin-top: 30px;
 font-weight: 600;
 font-size: 48px;
 line-height: 50px;
 }
 .aff2{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -64,7 +64,7 @@ color: #FFFFFF;
 }
 .order{
     
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -74,7 +74,7 @@ color: #E7AC3E;
 }
 .order2{
     
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -82,7 +82,7 @@ color: #000000;
 }
 .order12{
     
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
@@ -108,7 +108,7 @@ color: #333333;
 }
 .all{
     
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
@@ -126,7 +126,7 @@ color: #333333;
 .yy{
     width: 220px;
     margin-top:20px;
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -139,7 +139,7 @@ color: #34912B;
     justify-content: center;
 }
 .rx{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
@@ -148,7 +148,7 @@ align-items: center;
 color: #E7AC3E;
 }
 .loadd{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 400;
 align-items: center;
@@ -156,7 +156,7 @@ margin-top: 17px;
 font-size: 18px
 }
 .pp{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
@@ -175,7 +175,7 @@ width: 347px;
 }
 .mt{
     margin: 10px;
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -207,7 +207,7 @@ border-radius: 9.37143px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 60%;
+    width: 59%;
 }
 
 .buttt3{
@@ -223,7 +223,7 @@ border-radius: 9.37143px;
     /* width: 60%; */
 }
 .mobile{
-    font-family: poppins;
+    font-family: Plus Jakarta Sans;
     font-style: normal;
 font-weight: 600;
 font-size: 48px;
@@ -250,7 +250,7 @@ color: #333333;
 }
 .news{
 
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -288,7 +288,7 @@ color: #FFFFFF;
 }
 
 .company{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -313,7 +313,7 @@ color: #FFFFFF;
 }
 
 .lab{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
 font-size: 18px;
 color: #0F152F;
   }
@@ -325,12 +325,12 @@ color: #0F152F;
   }
 
   .hei::placeholder {
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     font-size: 16px;
     color: #837F7F;
 }
 .contact{
-   font-family: ' poppins';
+   font-family: ' Plus Jakarta Sans';
     font-style: normal;
 font-weight: 600;
 font-size: 40px;
@@ -378,7 +378,7 @@ border-radius: 5px;
     padding: 40px 15px;
 }
 .afford{
-    font-family: 'poppins';
+    font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -397,7 +397,7 @@ padding: 10px;
 
 }
 .nname{
-font-family: 'poppins';
+font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
