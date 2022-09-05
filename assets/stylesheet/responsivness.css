@@ -70,8 +70,8 @@
         font-family: 'Plus Jakarta Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
-
+    font-size: 22px;
+width: 90%;
     color: #FFFFFF;
     }
     .shift{
@@ -82,10 +82,8 @@
         padding-left: 70%;
         width: 100%;
     }
-    .sfitt{
-        padding-left: 12%;
 
-    }
+
 }
 @media screen and (min-width: 768px) {
 
@@ -93,4 +91,12 @@
 margin-top: 140px;
 /* background-color: red; */
   }
+}
+@media screen and (max-width: 768px) {
+
+    .construct{
+        display: flex;
+       flex-direction: column;
+
+    }
 }

@@ -9,13 +9,19 @@
     font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 20px;
-width: 90%;
+font-size: 18px;
+/* width: 90%; */
+display: flex;
+justify-content: center;
 color: #FFFFFF;
 }
 .shift{
 
-    width: 40%;
+    width: 50%;
+}
+.construct{
+    display: flex;
+    justify-content: center;
 }
 .butt{
     width: 165px;
