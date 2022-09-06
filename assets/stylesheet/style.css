@@ -43,7 +43,7 @@ font-style: normal;
 margin-top: 30px;
 font-weight: 600;
 font-size: 48px;
-line-height: 50px;
+line-height: 70px;
 }
 .aff2{
     font-family: 'Plus Jakarta Sans';
@@ -125,7 +125,7 @@ color: #E7AC3E;
     font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 20px;
 margin-left: 10px;
 color: #333333;
 }
@@ -213,7 +213,7 @@ border-radius: 9.37143px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 59%;
+    width: 75%;
 }
 
 .buttt3{
