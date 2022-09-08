@@ -83,4 +83,30 @@
     
     color: #FFFFFF;
     }
+    .akoba{
+        margin-left: -50px;
+    }
+}
+
+
+@media screen and (max-width:1440px){
+    .icon{
+        margin-left: -5%;
+    }
+
+}
+@media screen and (min-width:2560px){
+    .fonts{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+    
+    
+    color: #FFFFFF;
+    }
+    .spacing{
+        margin-left: 0%;
+    }
+    
 }

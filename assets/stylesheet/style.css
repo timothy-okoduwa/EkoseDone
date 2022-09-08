@@ -51,6 +51,7 @@ line-height: 70px;
     font-weight: 500;
     font-size: 48px;
     color: #333333;
+    line-height: 70px;
 }
 .quality{
     font-family: 'Nunito Sans';
@@ -92,33 +93,40 @@ font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
 font-size: 36px;
-padding-top: 60px;
-text-align: center;
-color: #333333;
+line-height: 36px;
+color: #E7AC3E;text-align:center ;
+
 }
 .get{
     font-family: 'Nunito Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-text-align: center;
-margin-top: 52px;
-color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 27px;
+   margin-top: 60px;
+
+    text-align: center;
 }
 .cent{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
+    margin-top: 14px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 25px;
+  display: flex;
+  justify-content: center;
     text-align: center;
-    margin-top: 15px;
+    
+    color: #3F3939;
 }
 .all{
     
 font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 24px;
-margin-top:33px ;
+font-size: 28px;
+line-height: 24px;
 color: #E7AC3E;
 }
 .search{
@@ -148,7 +156,7 @@ color: #34912B;
     font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 600;
-font-size: 22px;
+font-size: 24px;
 display: flex;
 align-items: center;
 color: #E7AC3E;
@@ -159,7 +167,7 @@ font-style: normal;
 font-weight: 400;
 align-items: center;
 margin-top: 17px;
-font-size: 18px
+font-size: 21px
 }
 .pp{
     font-family: 'Plus Jakarta Sans';
@@ -184,7 +192,7 @@ width: 347px;
     font-family: 'Plus Jakarta Sans';
 font-style: normal;
 font-weight: 500;
-font-size: 20px;
+font-size: 23px;
 color: #333333;
 }
 .th{
@@ -192,7 +200,7 @@ color: #333333;
 font-style: normal;
 text-align: center;
 font-weight: 400;
-font-size: 18px;
+font-size: 20px;
 color: rgba(51, 51, 51, 0.686);
 padding: 25px;
 }
@@ -214,7 +222,7 @@ border-radius: 9.37143px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 75%;
+    width: 83%;
 }
 
 .buttt3{
@@ -428,12 +436,12 @@ color: #333333;
     margin-left: 10%;
 }
 .spacing{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .fonts{
     font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 20px;
 line-height: 18px;
 
 
@@ -443,3 +451,27 @@ color: #FFFFFF;
  
     width: 40%;
 }
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .my-float {
+    margin-top: 16px;
+  }
+  
+
+  .vbvb{
+    margin-top: 40px;
+  }
