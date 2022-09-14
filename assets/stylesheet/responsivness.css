@@ -77,15 +77,16 @@
     .fonts{
         font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 35px;
     line-height: 18px;
     
     
     color: #FFFFFF;
     }
-    .akoba{
-        margin-left: -50px;
-    }
+    .ak2{
+        padding-right: 160px;
+       
+      }
 }
 
 
@@ -93,20 +94,49 @@
     .icon{
         margin-left: -5%;
     }
+ 
 
 }
 @media screen and (min-width:2560px){
     .fonts{
         font-style: normal;
+        font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 18px;
-    
-    
     color: #FFFFFF;
+  
     }
+    .akoi{
+     
+        margin-left: 6%;
+    }
+    .icon{
+        margin-left: 50%;
+    }
+
+    /* .away{
+        background-color: red;
+    } */
     .spacing{
         margin-left: 0%;
     }
-    
+    .div{
+        display: flex;
+        justify-content: space-around;
+        /* margin-left: -222px; */
+        /* background-color: red; */
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .akoba{
+        display: flex;
+       
+        justify-content: end;
+      }
+      .ak2{
+        padding-right: 160px;
+       
+      }
 }
