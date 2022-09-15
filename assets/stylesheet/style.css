@@ -64,7 +64,7 @@ line-height: 70px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 27px;
+line-height: 37px;
 margin-top: 30px;
 color: #FFFFFF;
 }
@@ -298,13 +298,17 @@ color: #FFFFFF;
 
 
 .margin{
+    font-family: 'Nunito Sans';
     margin-top: 19px;
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 .margin a{
+    font-family: 'Nunito Sans';
     text-decoration: none;
     color: white;
+    font-size: 20px;
 }
 
 .company{
@@ -461,13 +465,13 @@ color: #FFFFFF;
 
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     bottom: 40px;
     right: 40px;
     background-color: #25d366;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 60px;
     text-align: center;
     font-size: 30px;
     box-shadow: 2px 2px 3px #999;
@@ -475,7 +479,8 @@ color: #FFFFFF;
   }
   
   .my-float {
-    margin-top: 16px;
+    margin-top: 35px !important;
+    font-size: 55px !important;
   }
   
 
