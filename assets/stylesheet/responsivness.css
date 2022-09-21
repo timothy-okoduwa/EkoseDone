@@ -1,0 +1,162 @@
+@media screen and (max-width: 768px) {
+    .float {
+        position: fixed;
+        width: 60px;
+        height:60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+      
+      .my-float {
+        margin-top: 15px !important;
+        font-size: 35px !important;
+      }
+      
+    .spacing{
+        margin-left: auto;
+    }
+    .aff{
+        font-family: 'Plus Jakarta Sans';
+        color: white;
+    font-style: normal;
+    margin-top: 33px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 50px;
+    }
+    .quality{
+        font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    }
+    .company1{
+        margin-left: 4%;
+    }
+    .holder{
+        margin-left: 4%;
+    }
+}
+/* 
+@media screen and (min-width: 2000px) {
+.sfitt{
+    padding-left: 10%;
+    color: blue;
+}
+    .move{
+
+        width: 44%;
+    }
+    .font{
+        font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    width: 60%;
+    margin-left:-19%;
+
+
+    color: #FFFFFF;
+    }
+    .icon{
+        padding-left: 60%;
+        width: 80%;
+    }
+    .butt{
+        width: 185px;
+    height: 66px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+
+    border-radius: 5px;
+    }
+    .shift{
+
+        width: 90%;
+    }
+} */
+
+
+
+@media screen and (min-width:1440px){
+    .icon{
+        margin-left: 18%;
+    }
+    .fonts{
+        font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 18px;
+    
+    
+    color: #FFFFFF;
+    }
+    .ak2{
+        padding-right: 160px;
+       
+      }
+}
+
+
+@media screen and (max-width:1440px){
+    .icon{
+        margin-left: -5%;
+    }
+ 
+
+}
+@media screen and (min-width:2560px){
+    .fonts{
+        font-style: normal;
+        font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+  
+    }
+    .akoi{
+     
+        margin-left: 6%;
+    }
+    .icon{
+        margin-left: 50%;
+    }
+
+    /* .away{
+        background-color: red;
+    } */
+    .spacing{
+        margin-left: 0%;
+    }
+    .div{
+        display: flex;
+        justify-content: space-around;
+        /* margin-left: -222px; */
+        /* background-color: red; */
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .akoba{
+        display: flex;
+       
+        justify-content: end;
+      }
+      .ak2{
+        padding-right: 160px;
+       
+      }
+}
