@@ -10,6 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Us</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,62 +112,42 @@
 
 
 
-            <div class="col-12 col-lg-6 pb-5">
-                <form class=" needs-validation" novalidate>
+            <div class="col-12 col-lg-6 pb-5" id="myForm">
+             
                     <div class="mb-5 mt-5">
-                        <label for="validationCustom01" class="form-label lab">Full Name *</label>
-                        <input type="name" class="form-control hei" id="validationCustom01" placeholder="Enter Your Name" required>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                          Please provide a name.
-                        </div>
+                        <label  class="form-label lab">Full Name *</label>
+                        <input type="name" class="form-control hei" id="name" placeholder="Enter Your Name" required>
+                     
+                       
                       </div>
                     <div class="mb-5">
-                        <label for="validationCustom02" class="form-label lab">Email *</label>
-                        <input type="email" class="form-control hei" id="validationCustom02" placeholder="Enter Your Email Addres" required>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                          Please provide a valid Email.
-                        </div>
+                        <label  class="form-label lab">Email *</label>
+                        <input type="email" class="form-control hei" id="emailed" placeholder="Enter Your Email Addres" required>
+                        
+                       
                       </div>
                     <div class="mb-5">
-                        <label for="validationCustom03" class="form-label lab">Phone Number *</label>
-                        <input type="number" class="form-control hei" id="validationCustom03" placeholder="Enter Your phone Number" required>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                          Please provide a correct number.
-                        </div>
+                        <label  class="form-label lab">Phone Number *</label>
+                        <input type="number" class="form-control hei" id="number" placeholder="Enter Your phone Number" required>
+                      
+                     
                       </div>
                     <div class="mb-5">
-                        <label for="validationCustom04" class="form-label lab">Subject *</label>
-                        <input type="text" class="form-control hei" id="validationCustom04" placeholder="Enter Your Subject" required>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                          Please provide a subject.
-                        </div>
+                        <label  class="form-label lab">Subject *</label>
+                        <input type="text" class="form-control hei" id="subjects" placeholder="Enter Your Subject" required>
+                      
+                     
                       </div>
             
                       <div class="mb-5">
-                        <label for="validationCustom05" class="form-label lab">Message</label>
-                        <textarea class="form-control" id="validationCustom05" rows="7" placeholder="Message" required></textarea>
-                        <div class="valid-feedback">
-                          Looks good!
-                        </div>
-                        <div class="invalid-feedback">
-                          Please provide a message.
-                        </div>
+                        <label  class="form-label lab">Message</label>
+                        <textarea class="form-control" id="msg" rows="7" placeholder="Message" required></textarea>
+                      
+                      
                       </div>
 
-          <button type="submit" class=" btn btn-success   " style="width: 129px;">Submit</button>
-                    </form>
+          <button type="submit" onclick="sendMail()" class=" btn btn-success  " style="width: 129px;">Submit</button>
+                   
                 
             </div>
         </div>
@@ -306,33 +287,45 @@
   </div>
   </div>
   
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("J0SNdSL_4XtpPavgn");
+})();
+</script>
+
+
+<script>
+  function sendMail(params){
+var templateParams ={
+  from_name:document.getElementById("name").value,
+  emails:document.getElementById("emailed").value,
+  phone:document.getElementById("number").value,
+  subject:document.getElementById("subjects").value,
+  message:document.getElementById("msg").value,
+};
+// emailjs.send("service_fdblifh","template_htmpav8",templateParams)
+// .then(function(res){
+//  alert("success",res.status )
+// })
+emailjs.send('service_fdblifh', 'template_htmpav8', templateParams)
+    .then(function(response) {
+      window.location.reload();
+      alert('SUCCESS! your mail is on its way to us ', response.status, response.text);
+    }, function(error) {
+      alert('FAILED...', error);
+    });
+  }
+</script>
+
+
+
+
   
-  <script>
 
-    // Example starter JavaScript for disabling form submissions if there are invalid fields
-(() => {
-  'use strict'
-
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  const forms = document.querySelectorAll('.needs-validation')
-
-  // Loop over them and prevent submission
-  Array.from(forms).forEach(form => {
-    form.addEventListener('submit', event => {
-      if (!form.checkValidity()) {
-        event.preventDefault()
-        event.stopPropagation()
-      }
-
-      form.classList.add('was-validated')
-    }, false)
-  })
-})()
-  </script>
-  
-  
-    
-    
+   
     
     
     

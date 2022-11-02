@@ -71,6 +71,25 @@
 
 
 @media screen and (min-width:1440px){
+    .float {
+        position: fixed;
+        width: 120px;
+        height: 120px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+      
+      .my-float {
+        margin-top: 35px !important;
+        font-size: 55px !important;
+      }
     .icon{
         margin-left: 18%;
     }
