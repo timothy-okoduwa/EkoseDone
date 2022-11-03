@@ -437,8 +437,8 @@
         <div class="your">Your Email</div>
 
         <div class="input-group mb-3 mt-4  accord" >
-          <input type="text" id="emailed" class="form-control" placeholder="Example@email.com" >
-          <button type="submit" onclick="sendMail()" class="btn btn-success "  style="height: 57px;">Subscribe
+          <input type="email" id="emailed" class="form-control" placeholder="Example@email.com" >
+          <button type="submit"  onclick="sendMail()" class="btn btn-success "  style="height: 57px;">Subscribe
             <img src="./assets/lmages/sub.svg" alt="">
           </button>
         </div>
@@ -538,7 +538,35 @@
 </div>
 </div>
 
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+emailjs.init("J0SNdSL_4XtpPavgn");
+})();
+</script>
 
+
+<script>
+function sendMail(params){
+var templateParams ={
+
+emails:document.getElementById("emailed").value,
+};
+// emailjs.send("service_fdblifh","template_htmpav8",templateParams)
+// .then(function(res){
+//  alert("success",res.status )
+// })
+emailjs.send('service_fdblifh', 'template_htmpav8', templateParams)
+  .then(function(response) {
+    window.location.reload();
+    alert('SUCCESS! Thank you for Subscribing  ', response.status, response.text);
+  }, function(error) {
+    alert('FAILED...', error);
+  });
+}
+</script>
 
 
 
